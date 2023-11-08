@@ -10,7 +10,6 @@
 
 <style lang="postcss">
     :global(html) {
-        background-image: url("pattern.svg");
         background-repeat: repeat;
         font-family: "Playpen Sans";
         color: #606f49;
