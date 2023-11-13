@@ -24,5 +24,6 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/playpen-sans": "^5.0.1"
-	}
+	},
+	"packageManager": "yarn@4.0.1"
 }

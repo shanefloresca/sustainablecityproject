@@ -14,7 +14,4 @@
         font-family: "Playpen Sans";
         color: #606f49;
     }
-    :global(html)::selection {
-        background-color: #97a97c;
-    }
 </style>

@@ -34,10 +34,15 @@
 
     <!-- CAMPAIGN VIDEO -->
 
-    <img
-        class="w-[800px] self-center outline-dashed outline-2 outline-offset-2 mt-16 mb-16 outline-palette-900"
-        src={placeholder}
-        alt="Campaign Video"
+    <iframe
+        class="self-center mt-16 mb-16 outline-dashed outline-2 outline-offset-2 outline-palette-900"
+        width="800px"
+        height="450px"
+        src="https://www.youtube-nocookie.com/embed/YRaHkWHFym0?si=XeByBNcjHWblUqVp"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
     />
 
     <!-- SUSTAINABLE DEFINITION -->
@@ -154,7 +159,7 @@
         can save millions.
     </p>
 
-    <h1 class="text-3xl text-center w-[900px] self-center mt-8 mb-8">
+    <h1 class="text-3xl text-center w-[900px] self-center mt-8 mb-8 italic">
         “If we change our thoughts from 'it's too late' to, 'there's still
         hope', we might see some change in the world.”
     </h1>
