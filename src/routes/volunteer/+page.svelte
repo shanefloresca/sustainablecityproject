@@ -4,6 +4,10 @@
     import { orgStore } from "../../stores/stores";
 </script>
 
+<svelte:head>
+    <title>Volunteer Now!</title>
+</svelte:head>
+
 <div class="flex flex-col items-center mt-8 -space-y-2">
     <h1 class="text-4xl text-center">The Sustainable<br />Organizations</h1>
     <img class="w-56" src={scribble} alt="Scribble" />
