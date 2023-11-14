@@ -28,7 +28,7 @@
             </h1>
             <div class="flex flex-col -space-y-4">
                 <p class="text-2xl">
-                    An environmentalist project<br />built by creators
+                    An environmentalist project<br />built by students
                 </p>
                 <img class="-ml-1 w-80" src={scribble} alt="Scribble" />
             </div>
@@ -163,7 +163,7 @@
         can save millions.
     </p>
 
-    <h1 class="text-3xl text-center w-[900px] self-center mt-8 mb-8 italic">
+    <h1 class="text-2xl text-center w-[900px] self-center mt-8 mb-8 italic">
         “If we change our thoughts from 'it's too late' to, 'there's still
         hope', we might see some change in the world.”
     </h1>

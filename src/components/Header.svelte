@@ -1,6 +1,7 @@
 <script>
     import logo from "$lib/graphics/logo.svg";
     import facebook from "$lib/graphics/facebook-circle.svg";
+    import gmail from "$lib/graphics/gmail.svg";
 
     let scrollY = 0;
 </script>
@@ -27,10 +28,14 @@
             <a class="text-lg font-bold" href="/volunteer">Volunteer</a>
         </li>
     </ul>
-    <a
-        class="justify-self-end"
-        href="https://www.facebook.com/profile.php?id=61553471998676"
-    >
-        <img class="w-6" src={facebook} alt="Facebook" />
-    </a>
+    <div class="flex flex-row justify-self-end gap-x-3">
+        <a href="https://www.facebook.com/profile.php?id=61553471998676">
+            <img class="w-6" src={facebook} alt="Facebook" />
+        </a>
+        <a
+            href="https://mail.google.com/mail/u/0/?fs=1&to=sustainablecityproject@gmail.com&su=Volunteer&tf=cm"
+        >
+            <img class="w-7" src={gmail} alt="Gmail" />
+        </a>
+    </div>
 </header>
