@@ -14,6 +14,10 @@
     import bike from "$lib/graphics/bike.svg";
 </script>
 
+<svelte:head>
+    <title>Sustainable City Project</title>
+</svelte:head>
+
 <div class="flex flex-col gap-y-4">
     <!-- FRONT PAGE -->
 
