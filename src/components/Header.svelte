@@ -1,5 +1,6 @@
 <script>
     import logo from "$lib/graphics/logo.svg";
+    import facebook from "$lib/graphics/facebook-circle.svg";
 
     let scrollY = 0;
 </script>
@@ -7,8 +8,8 @@
 <svelte:window bind:scrollY />
 
 <header
-    class={`sticky top-0 z-50 grid items-center grid-cols-3 p-6 ${
-        scrollY > 100 ? "bg-palette-100" : "bg-none"
+    class={`sticky top-0 z-50 grid items-center grid-cols-3 p-4 ${
+        scrollY > 50 ? "bg-palette-100" : "bg-none"
     }`}
 >
     <a class="flex flex-row items-center gap-x-2" href="/">
@@ -26,4 +27,10 @@
             <a class="text-lg font-bold" href="/volunteer">Volunteer</a>
         </li>
     </ul>
+    <a
+        class="justify-self-end"
+        href="https://www.facebook.com/profile.php?id=61553471998676"
+    >
+        <img class="w-6" src={facebook} alt="Facebook" />
+    </a>
 </header>

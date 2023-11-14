@@ -1,5 +1,6 @@
 <script>
     import BlogPost from "../../components/BlogPost.svelte";
+    import scribble from "$lib/graphics/scribble.svg";
     import infographic1 from "$lib/img/infographic-1.jpg";
     import infographic2 from "$lib/img/infographic-2.jpg";
     import infographic3 from "$lib/img/infographic-3.jpg";
@@ -11,7 +12,7 @@
 
 <div class="flex flex-col gap-y-16">
     <BlogPost author="Chlsy Velasco" published="November 11, 2023">
-        <h1 slot="title">We Are so Young and Naive. And We Got Things Done.</h1>
+        <h1 slot="title">We are so Young and Naive. And We Got Things Done.</h1>
         <p slot="content">
             According to Climate Education from Yale's Program on Climate Change
             Communication, younger generations (generation Z) are more engaged

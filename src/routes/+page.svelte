@@ -47,7 +47,7 @@
 
     <!-- SUSTAINABLE DEFINITION -->
 
-    <div class="flex flex-row items-center justify-around mt-8">
+    <div class="flex flex-row items-center justify-around mt-16 mb-16">
         <div class="flex flex-row items-center gap-x-4">
             <img class="w-16" src={logo} alt="Logo" />
             <div class="flex flex-col items-center gap-y-1">

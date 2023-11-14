@@ -9,7 +9,7 @@
 </script>
 
 <div class="flex flex-col items-center pt-8 pb-8">
-    <h1 class="text-5xl text-center max-w-[600px]">
+    <h1 class="text-5xl text-center max-w-[700px]">
         <slot name="title">Title</slot>
     </h1>
     <img class="w-60" src={scribble} alt="Scribble" />
